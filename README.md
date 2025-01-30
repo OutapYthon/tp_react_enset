@@ -7,6 +7,10 @@ Ce code essaie de gérer les traductions avec React Context pour permettre de ch
 
 ![image](https://github.com/user-attachments/assets/5ec18013-f3f0-44a3-a0f6-20dafe613980)
 
+# Exercice 3 : Hook personalisé :
+Ce code crée un hook useFetch pour simplifier les appels API dans React. Il gère le chargement, les erreurs, et annule les requêtes inutiles quand le composant est démonté. Quand on l’utilise (ex: useFetch('https://api.com/products')), il récupère les données, met à jour l’état data si ça réussit, ou error si ça échoue. Par exemple, si l’API renvoie une erreur 404, le message "Erreur HTTP : 404 Not Found" s’affiche.
+
+![image](https://github.com/user-attachments/assets/45b27591-edf0-4a16-a3db-dc6c5e91b2ff)
 
 # Exercice 4 :Gestion Asynchrone et Pagination
  Gérer les requêtes asynchrones avec une gestion du chargement et des erreurs, et implémenter la pagination pour afficher les produits par pages. Pistes : Utiliser async/await ou des promesses pour les requêtes. Gérer l'état de chargement et les erreurs. Utiliser des paramètres de requête pour la pagination (par exemple, page, limit).
